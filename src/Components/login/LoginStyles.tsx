@@ -8,9 +8,15 @@ const styles = StyleSheet.create({
       justifyContent:"space-around"
     },
 
-    View_Block: {
+    Heading_block: {
         display: "flex",
         justifyContent: "center",
+        flexDirection: "column",
+    },
+
+    View_Block: {
+        display: "flex",
+        justifyContent: "flex-end",
         flexDirection: "column",
     },
   

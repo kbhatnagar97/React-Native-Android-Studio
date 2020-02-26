@@ -58,6 +58,7 @@ export const Login: React.FC = () => {
             <TextInput
               style={styles.Input_Password}
               placeholder="Password"
+              secureTextEntry = {true}
               onChangeText={text => setPassword(text)}
             />
           </View>
