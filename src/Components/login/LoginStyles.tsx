@@ -3,7 +3,15 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     body: {
       marginLeft: 30,
-      marginRight: 30
+      marginRight: 30,
+      display: "flex",
+      justifyContent:"space-around"
+    },
+
+    View_Block: {
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
     },
   
     Heading_login: {
@@ -16,7 +24,7 @@ const styles = StyleSheet.create({
   
     Field_Info: {
       color: "lightgrey",
-      marginTop: 250
+      marginTop: 100
     },
   
     Input_Info: {
@@ -26,40 +34,15 @@ const styles = StyleSheet.create({
   
     Field_Password: {
       color: "lightgrey",
-      marginTop: 20
+      marginTop: 20,
     },
   
     Input_Password: {
       borderBottomColor: "lightgrey",
-      borderBottomWidth: 2
-    },
-  
-    Button: {
-      marginTop: 20,
-      marginLeft: 10,
-      marginRight: 10,
-      height: 55,
-      color: "white"
-    },
+      borderBottomWidth: 2,
+      marginBottom: 30
 
-    SubmitButtonStyle: {
- 
-        marginTop:20,
-        paddingTop:15,
-        paddingBottom:15,
-        marginLeft:20,
-        marginRight:20,
-        backgroundColor:'#3959CB',
-        borderRadius:20,
-        borderWidth: 1,
-        borderColor: '#fff',
-        color: "white"
     },
-
-    Button_Text:{
-        color:'#fff',
-        textAlign:'center',
-    }
   
   });
 
