@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/kshitij_bhatnagar/apps/ANDROID/react-native-hu-17-assignment/ReactNativeTradenApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
+            "outputFile": "/home/kshitij_bhatnagar/apps/ANDROID/react-native-hu-17-assignment/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
             "map": [
                 {
                     "source": "/home/kshitij_bhatnagar/.gradle/caches/transforms-2/files-2.1/d7ba68c50c258cb41898e9598552386d/res/values-si/values-si.xml",
