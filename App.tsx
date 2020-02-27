@@ -9,13 +9,12 @@ const App = () => {
   );
 
   return (
-    <Home/>
-    // <NavigationContainer>
-    //   <stack.Navigator initialRouteName="Login" headerMode='none'>
-    //     <stack.Screen name="Login" component={Login}></stack.Screen>
-    //     <stack.Screen name="Home" component={Home}></stack.Screen>
-    //   </stack.Navigator>
-    // </NavigationContainer>
+    <NavigationContainer>
+      <stack.Navigator initialRouteName="Login" headerMode='none'>
+        <stack.Screen name="Login" component={Login}></stack.Screen>
+        <stack.Screen name="Home" component={Home}></stack.Screen>
+      </stack.Navigator>
+    </NavigationContainer>
 );
 } 
 

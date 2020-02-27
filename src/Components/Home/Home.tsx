@@ -27,13 +27,26 @@ export const Home: React.FC = () => {
                         style={styles.location_dropdown}
                         source={require("../../Assets/location_dropdown.png")}/>
                     </View>
-                    <View>
-
-                    </View>
-                    
+                    <View style = {styles.tabs}>
+                        <Image
+                        style={styles.location_icon}
+                        source={require("../../Assets/side_menu.png")}/>
+                        <Image
+                        style={styles.location_icon}
+                        source={require("../../Assets/home.png")}/>
+                        <Image
+                        style={styles.location_icon}
+                        source={require("../../Assets/search.png")}/>
+                        <Image
+                        style={styles.location_icon}
+                        source={require("../../Assets/notification.png")}/>
+                        <Image
+                        style={styles.location_icon}
+                        source={require("../../Assets/inapp_chat.png")}/>
+                    </View> 
                 </View>
             </View>
-            
+
 
         </View>
     );

@@ -1,22 +1,23 @@
 import { StyleSheet } from "react-native";
 import { Directions } from "react-native-gesture-handler";
+import { Profiler } from "react";
 
 const styles = StyleSheet.create({
-    Header: {        
+    Header: {     
         display:"flex",
         flexDirection: "row"
     },
 
     location_image_tabs: {
-        flex: 1,
+        height: 80,
+        flex:1,
         backgroundColor: "#3C57CC",
         display: "flex",
         justifyContent: "center",
-        flexDirection: "row"
+        flexDirection: "column",
     },
 
     location_image: {
-        flex: 1,
         backgroundColor: "#3C57CC",
         display: "flex",
         justifyContent: "center",
@@ -42,6 +43,12 @@ const styles = StyleSheet.create({
         margin: 10,
     },
 
+    tabs: {
+        backgroundColor: "#3C57CC",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around"
+    }
 
 });
 
