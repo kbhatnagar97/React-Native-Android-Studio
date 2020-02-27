@@ -1,4 +1,5 @@
 import React from "react";
+import {useNavigation} from '@react-navigation/native'
 import {
   View,
   Text,
@@ -12,6 +13,7 @@ import styles from "./LoginStyles";
 import Axios from "axios";
 
 export const Login: React.FC = () => {
+  const navigation = useNavigation()
   const [Username, setUsername] = React.useState("");
   const [Password, setPassword] = React.useState("");
 
@@ -26,6 +28,7 @@ export const Login: React.FC = () => {
       .then(function(response) {
         ToastAndroid.show("Login Successful", ToastAndroid.SHORT);
         console.log("Pass");
+        navigation.navigate("Home")
       })
       .catch(function(error) {
         ToastAndroid.show("Login credentials Incorrect", ToastAndroid.SHORT);
@@ -34,8 +37,8 @@ export const Login: React.FC = () => {
   };
 
   return (
-    <View>
-      <StatusBar backgroundColor="white" />
+    <View style={styles.Main_block}>
+      <StatusBar backgroundColor="white"/>
       <View style={styles.body}>
         <View style={styles.Heading_block}>
           <Text style={styles.Heading_login}>Login</Text>

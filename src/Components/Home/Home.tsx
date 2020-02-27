@@ -9,3 +9,12 @@ import {
   Button
 } from "react-native";
 import styles from "./HomeStyles"
+
+
+export const Home: React.FC = () => {
+    return (
+        <View>
+            <Text>Hello World!!</Text>
+        </View>
+    );
+}

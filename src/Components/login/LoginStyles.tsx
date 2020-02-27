@@ -1,11 +1,16 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+
+    Main_block: {
+        backgroundColor: "white"
+    },
+    
     body: {
       marginLeft: 30,
       marginRight: 30,
       display: "flex",
-      justifyContent:"space-around"
+      justifyContent:"space-around",
     },
 
     Heading_block: {
